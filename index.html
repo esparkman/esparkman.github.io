@@ -88,11 +88,11 @@
               </div>
               <div class='yui-u'>
                 <ul class='talent'>
-                  <li>HTML/HAML</li>
-                  <li>CSS</li>
+                  <li>HTML/HAML/PUG</li>
+                  <li>CSS/SCSS</li>
                   <li>CoffeeScript</li>
-                  <li>ReactJS</li>
-                  <li>Javascript(ES6)/jQuery</li>
+                  <li>ReactJS/VueJS</li>
+                  <li>Javascript(ES5, ES6)</li>
                   <li>Ruby on Rails</li>
                 </ul>
                 <ul class='talent'>
@@ -104,10 +104,10 @@
                   <li>Pair Programming</li>
                 </ul>
                 <ul class='talent'>
-                  <li>Agile Certified</li>
                   <li>TDD/BDD</li>
                   <li>Amazon AWS</li>
                   <li>Amazon AWS OpsWorks</li>
+                  <li>Firebase</li>
                   <li>Heroku</li>
                   <li>DigitalOcean</li>
                 </ul>
@@ -126,8 +126,16 @@
                   <h4>December 2014 - Present</h4>
                   <p>
                     My responsibilities at Manheim consist of being a mentor to many of the teams as an Advisory Engineer. Currently I am helping to assist our Enterprise Business Intelligence team with a strategic rollout of Adobe Analytics using Adobe DTM.
-                    My everyday responsibilities consist of being the Team Lead for one of 25 capability teams at Manheim. Our most recent project was a complete redesign, visually and architecturally, of the Manheim Market Report for our dealers to view transaction history
-                    for a given Year, Make, Model, Style. This new experience is a ReactJS frontend with a Ruby on Rails API backend.
+                    My everyday responsibilities consist of being the Team Lead for one of 25 capability teams at Manheim.
+                  </p>
+                  <p>
+                    Our most recent project was a complete redesign, visually and architecturally, of the Manheim Market Report for our customers to view transaction history for a given Year, Make, Model, Style or VIN. This new experience is a ReactJS frontend with a Ruby on Rails API backend.
+                  </p>
+                  <p>
+                    I was involved from day one with the architectural design of this new approach for this application. We chose to use a Rails API backend due to the performance advantages and the current skillset of the team members. The backend API was designed as an Aggregate API that allows for multiple requests to be sent and a single response returned with the payload requested.
+                  </p>
+                  <p>
+                    The React application is a consumer of our backend API, dubbed gateway_api. It also is a consumer of other internal API's within the Manheim family of applications. We use Redux for interal state management. Redux Saga is used for handling side-effects in our store.
                   </p>
                   <p>
                     Technologies used: Ruby on Rails, Rails API(gem), Sidekiq(gem), Redis, Docker, AWS, Postgresql, ReactJS, ES6
@@ -159,7 +167,7 @@
                 </div>
                 <div class='job'>
                   <h2>Cox Digital Exchange - Dealermatch.com</h2>
-                  <h3>Ruby on Rails Developer</h3>
+                  <h3>Ruby on Rails Developer - Team Lead</h3>
                   <h4>2012 - 2013</h4>
                   <p>Team Lead of 3 pairs of developers. I work closely with Product and Business Analysts to determine the optimal path for completing feature requsts.</p>
                   <p>I work with my team members and a third party consultancy(ThoughtWorks) on a platform targeting Retail/Wholesale Automotive dealers. I work with Spine.js and Ruby/Rails development using MongoDB as a data store. RSpec and Cucumber are daily tools that I use for TDD & BDD approaches to my day to day development.</p>
